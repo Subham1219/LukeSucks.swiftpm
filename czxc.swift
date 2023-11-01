@@ -6,17 +6,8 @@
 //
 
 import Foundation
-
 class PlayerListViewModel: ObservableObject {
-
     @Published var players: [Soccer] = []
-
-
-
     func getAllPlayers() {
-
-        
-
     }
-
 }
