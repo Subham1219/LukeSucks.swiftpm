@@ -1,17 +1,25 @@
+//
+//  FirebaseCore.swift
+//  LukeSucks
+//
+//  Created by Nishan Pathak on 11/1/23.
+//
+
+import Foundation
 import SwiftUI
-import FirebaseCore
+
 class AppDelegate: NSObject, UIApplicationDelegate {
+
   func application(_ application: UIApplication,
+
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
     FirebaseApp.configure()
+
+
+
     return true
+
   }
-}
-@main
-struct YourApp: App {
-  
-    
-    
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
+
 }
